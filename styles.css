@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+:root{
+ 
+ --dark: #21252f;
+ --body: rgb(225, 204, 204);
+ --box-shadow: 0px 8px 22px rgba(0,0,0,0.1);
+
+
+}
+body{
+    font-family: 'varela Round', sans-serif;
+    line-height: 1.7;
+    /* color: var(--body); */
+}
+
+.hero{
+    background: url(./css/link.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+   padding-bottom: 50px;
+    padding-top: 100px;
+}
+h1, .display-4{
+    font-size: 60px;
+}
+.navbar .nav-link{
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    line-height: 20px;
+}
+.nav-item{
+       padding-right: 30px;
+}
+.navbar{
+   background-color: rgba(12, 11, 11, 0.775); 
+}
+.btn{
+    padding: 9px 18px;
+    border-radius: 7px;
+}
+.hero::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(30, 27, 27, 0.802);
+    z-index: -1;
+
+}
+#abou{
+    font-weight: bolder;
+}
+.believe{
+    padding-bottom: 200px;
+}
+h3{
+    font-weight: bolder;
+      font-family: 'varela Round', sans-serif;
+}
+.italic{
+    font-style: italic;
+   font-size: 20px;
+color: rgb(128, 119, 119);
+
+}
+.glass{
+    width: 400px;
+    margin-top: -55px;
+    margin-left: 2px;
+    margin-bottom: -90px;
+  
+}
+.top{
+    margin-top: -90px;
+}
+.lorem{
+    font-size: 15px;
+    font-weight: lighter;
+    color: rgb(128, 119, 119);
+}
+.color{
+    text-align: center;
+    background: rgb(107, 107, 221);
+    align-items: center;
+    width: 80px;
+    height: 3px;
+    margin: 0 auto;
+    margin-bottom: 100px; 
+}
+.iconbox{
+        color: rgb(88, 88, 199);
+    font-size: 40px;
+    
+}
+#web{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container-fluid{
+    display: flex;
+   
+ 
+}
+.project{
+    position: relative;
+    overflow: hidden;
+
+}
+img{
+   width: 100%;
+}
+.project .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+background-color: rgba(14, 14, 214, 0.5);
+
+    padding: 75px;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+.project img{
+transition: all 0.4s ease;
+}
+.design{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding-top: 35px;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: 700;
+
+}
+.project:hover .overlay{
+   
+    opacity: 1;
+}
+.overlay:hover > *{
+    transform: translateY(-8px);
+    transition: transform 1s;
+    opacity: 1;
+}
+ .pet{
+     padding-bottom: 500px;
+ }
+ .team{
+     font-size: 20px;
+     text-align: center;
+ }
+ #crea{
+     text-align: center;
+     font-weight: 100;
+     color:  darkgrey;
+ }
+ .camera{
+     position: relative;
+     overflow: hidden;
+ }
+ .camera .over{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+background-color: rgba(53, 53, 208, 0.354);
+  text-align: center; 
+  padding-top: 160px;
+    transition: all 0.4s ease;
+    opacity: 0;
+ }
+ 
+ #awesome{
+     padding-top: 100px;
+     
+ }
+ .pro{
+     color: white;
+     font-size: 30px;
+     background-color: black;
+    width: 40px;
+    text-align: center;
+    padding: 5px;
+ }
+ .camera .img{
+transition: all 0.4s ease;
+}
+.camera:hover .over{
+   
+    opacity: 1;
+}
+.over:hover > *{
+    transform: translateY(-8px);
+    transition: transform 1s;
+    opacity: 1;
+}
+.hy{
+   width: 290px;
+   margin-bottom: 40px;
+}
+.second{
+    width: 610px;
+margin-bottom: 40px;
+}
+.pad{
+    margin-top: 250px;
+}
+.nice{
+color: blue;
+max-width: 100vmax;
+}
+#dad{
+    text-align: center;
+    color: #777;  
+}
+.hey:hover{
+    color: blue;
+}
+.luc{
+    color: white;
+}
+#sha{
+    text-decoration: none;
+}
+#sha:hover{
+    color: black;
+}
+.sir{
+    background: url(./css/video.ba.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+   padding-bottom: 50px;
+    padding-top: 100px;
+    height: 500px;
+}
+.sir::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(30, 27, 27, 0.802);
+    z-index: -1;
+}
+#see{
+text-align: center;
+color: white;
+font-size: 25px;
+font-style: italic;
+}
+.bb{
+    width: 80px;
+ text-align: center;
+ margin-left: 50%;
+   
+}
+
+.pls{
+    width: 100%;
+}
+.tired{
+    padding-left: 90px;
+}
+.jhor{
+    background: url(./css/laptop.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+   padding-bottom: 50px;
+    padding-top: 100px;
+    height: 500px;
+}
+.jhor::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(30, 27, 27, 0.802);
+    z-index: -1;
+}
+strong{
+    color: blue;
+}
+strong:hover{
+    color: black;
+    cursor: pointer;
+}
+.wemove{
+    margin-bottom: 100px;
+}
+#wal{
+    color: blue;
+    font-size: 15px;
+}
+.care{
+    background: url(./css/laptop.jpg);
+    height: 500px;
+    background: radial-gradient(rgba(32, 30, 30, 0.571));
+}
+.wife{
+    margin-left: 20px;
+    color: blue;
+}
+.slide{
+    margin: auto;
+}
+.carousel-item{
+    padding-bottom: 60px;
+    padding-top: 90px;
+}
+.victor{
+    text-align: center;
+    background: #fff;
+    align-items: center;
+    width: 80px;
+    height: 3px;
+    margin: 0 auto;
+    margin-bottom: 100px; 
+}
+
+.carousel-inner > p{
+    padding-top: -100px;
+    margin-top: -50px;
+}
+.bolder{
+    font-weight: bolder;
+}
+.phone > button{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+
+
+.OKAY ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 450px;
+    padding-right: 450px;
+    padding-top: 20px;
+}
+nav ul li{
+    list-style: none;
+
+}
+
+.OKAY a{
+    text-decoration: none;
+
+}
+.OKAY ul li a{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+.OKAY p{
+    color: #777;
+    text-align: center;
+    font-size: 15px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding-bottom: 5px;
+}
+.OKAY P a:hover{
+    color: rgb(57, 52, 52);
+}
+.skirt{
+    background-color: black;
+}
+.life{
+margin: 0 auto;
+}
+.card-body h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-body h6{
+    font-style: italic;
+    color: #777;
+}
+.card-body p{
+    color: #777;
+}
+.woo{
+    color: #777;
+    font-weight: 100;
+    font-size: 20px;
+    font-style: italic;
+}
